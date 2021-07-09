@@ -58,7 +58,7 @@
     "semantic-commit": "^0.2.1"
   },
   "release": {
-    "branches": ["origin/master"],
+    "branches": ["master"],
     "plugins": [
       "@semantic-release/commit-analyzer",
       "@semantic-release/release-notes-generator",
