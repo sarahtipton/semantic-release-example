@@ -58,15 +58,23 @@
     "semantic-commit": "^0.2.1"
   },
   "release": {
-    "branches": ["master"],
+    "branches": [
+      "master"
+    ],
     "plugins": [
       "@semantic-release/commit-analyzer",
       "@semantic-release/release-notes-generator",
-      ["@semantic-release/github", {
-        "assets": [
-          {"path": "build/**/*", "label": "Build Files"}
-        ]
-      }]
+      [
+        "@semantic-release/github",
+        {
+          "assets": [
+            {
+              "path": "build/**/*",
+              "label": "Build Files"
+            }
+          ]
+        }
+      ]
     ]
   }
 }
