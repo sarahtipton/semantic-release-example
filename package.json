@@ -56,5 +56,8 @@
   "dependencies": {
     "@commitlint/config-conventional": "^12.1.4",
     "semantic-commit": "^0.2.1"
+  },
+  "release": {
+    "branches": ["origin/master"]
   }
 }
